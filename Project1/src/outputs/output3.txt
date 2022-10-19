@@ -1,0 +1,42 @@
+(2, 36)
+(3, 16)
+(1, 26)
+{}
+0
+Product not found.
+Product not found.
+(4, 36)
+(5, 41)
+{(4, 36)}
+Product not found.
+(4, 36)
+Factory is empty.
+Index out of bounds.
+{(6, 36)}
+Product not found.
+{(6, 36)}
+(6, 36)
+Index out of bounds.
+Index out of bounds.
+0
+{(8, 23)}
+(8, 23)
+{}
+{}
+{(9, 31)}
+Index out of bounds.
+{(9, 31)}
+(9, 31)
+Index out of bounds.
+Product not found.
+Product not found.
+Product not found.
+Product not found.
+Index out of bounds.
+Product not found.
+Product not found.
+Factory is empty.
+Index out of bounds.
+Product not found.
+Factory is empty.
+{}

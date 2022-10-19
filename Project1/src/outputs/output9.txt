@@ -1,0 +1,45 @@
+Index out of bounds.
+Factory is empty.
+Factory is empty.
+0
+Index out of bounds.
+Index out of bounds.
+0
+Index out of bounds.
+0
+(1, 0)
+{(2, 40)}
+Product not found.
+Index out of bounds.
+Index out of bounds.
+(2, 40)
+Index out of bounds.
+Index out of bounds.
+Product not found.
+Index out of bounds.
+Factory is empty.
+Product not found.
+Product not found.
+Index out of bounds.
+(3, 34)
+{}
+Index out of bounds.
+Factory is empty.
+Product not found.
+Factory is empty.
+0
+0
+Index out of bounds.
+{(4, 11)}
+Product not found.
+0
+Index out of bounds.
+{(4, 11)}
+Product not found.
+(4, 11)
+Product not found.
+Factory is empty.
+Product not found.
+Product not found.
+Product not found.
+0

@@ -1,0 +1,23 @@
+{}
+Factory is empty.
+Factory is empty.
+{(7, 30),(1, 1),(2, 4),(3, 9),(4, 16),(5, 25),(6, 36)}
+(3, 9)
+Product not found.
+(4, 16)
+Product not found.
+(7, 30)
+Index out of bounds.
+(1, 1)
+Index out of bounds.
+{(7, 30),(1, 36),(2, 4),(3, 9),(4, 9),(5, 25),(6, 36)}
+2
+{(7, 30),(1, 36),(2, 4),(3, 9),(5, 25)}
+{(5, 25),(3, 9),(2, 4),(1, 36),(7, 30)}
+(3, 9)
+Product not found.
+(7, 30)
+(1, 36)
+(5, 25)
+Index out of bounds.
+{(2, 4)}

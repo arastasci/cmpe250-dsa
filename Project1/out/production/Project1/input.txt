@@ -1,0 +1,31 @@
+P
+RF
+RL
+AF 3 9
+A 0 2 4
+AL 5 25
+A 0 1 1
+A 3 4 16
+AL 6 36
+AF 7 30
+P
+F 3
+F 20
+U 4 9
+U 13 21
+G 0
+G 17
+U 1 36
+A 21 21 21
+P
+FD
+P
+R
+RP 9
+RP 13
+RL
+RI 2
+RF
+RI 4
+P
+
