@@ -169,6 +169,26 @@ public class FactoryImpl implements  Factory{
             cur = cur.getNextHolder();
             i++;
         }
+        return remove(cur);
+
+    }
+
+    @Override
+    public Product removeProduct(int value) throws NoSuchElementException {
+        Holder cur = first;
+        int i = 0;
+        while(cur != null){
+            if(cur.getProduct().getValue() == value){
+                if(i == 0) return removeFirst();
+                if(i == size - 1) return removeLast();
+                return remove(cur);
+            }
+            cur = cur.getNextHolder();
+            i++;
+        }
+        throw new NoSuchElementException();
+    }
+    private Product remove(Holder cur){
         Holder prev = cur.getPreviousHolder();
         Holder next = cur.getNextHolder();
         if(prev != null)
@@ -179,23 +199,7 @@ public class FactoryImpl implements  Factory{
         cur.setNextHolder(null);
         size--;
         return cur.getProduct();
-
     }
-
-    @Override
-    public Product removeProduct(int value) throws NoSuchElementException {
-        Holder cur = first;
-        int i = 0;
-        while(cur != null){
-            if(cur.getProduct().getValue() == value){
-                return removeIndex(i);
-            }
-            cur = cur.getNextHolder();
-            i++;
-        }
-        throw new NoSuchElementException();
-    }
-
     @Override
     public int filterDuplicates() {
         HashSet<Integer> set = new HashSet<Integer>();
