@@ -1,0 +1,65 @@
+4: New node being added with IP:1
+4: New node being added with IP:6
+4: New node being added with IP:2
+1: New node being added with IP:2
+4: New node being added with IP:3
+1: New node being added with IP:3
+2: New node being added with IP:3
+Rebalancing: left rotation
+4: New node being added with IP:5
+6: New node being added with IP:5
+4: New node being added with IP:63
+6: New node being added with IP:63
+4: New node being added with IP:65
+6: New node being added with IP:65
+63: New node being added with IP:65
+4: New node being added with IP:66
+6: New node being added with IP:66
+63: New node being added with IP:66
+65: New node being added with IP:66
+Rebalancing: left rotation
+4: New node being added with IP:25
+2: New node being added with IP:25
+3: New node being added with IP:25
+4: New node being added with IP:24
+2: New node being added with IP:24
+3: New node being added with IP:24
+25: New node being added with IP:24
+Rebalancing: right rotation
+4: New node being added with IP:23
+2: New node being added with IP:23
+25: New node being added with IP:23
+24: New node being added with IP:23
+Rebalancing: right-left rotation
+4: New node being added with IP:22
+24: New node being added with IP:22
+2: New node being added with IP:22
+23: New node being added with IP:22
+4: New node being added with IP:21
+24: New node being added with IP:21
+2: New node being added with IP:21
+23: New node being added with IP:21
+22: New node being added with IP:21
+Rebalancing: right rotation
+4: New node being added with IP:20
+24: New node being added with IP:20
+2: New node being added with IP:20
+22: New node being added with IP:20
+21: New node being added with IP:20
+Rebalancing: right-left rotation
+20: Sending message to: 66
+2: Transmission from: 20 receiver: 66 sender:20
+21: Transmission from: 2 receiver: 66 sender:20
+24: Transmission from: 21 receiver: 66 sender:20
+4: Transmission from: 24 receiver: 66 sender:20
+6: Transmission from: 4 receiver: 66 sender:20
+65: Transmission from: 6 receiver: 66 sender:20
+66: Received message from: 20
+4: Sending message to: 20
+24: Transmission from: 4 receiver: 20 sender:4
+21: Transmission from: 24 receiver: 20 sender:4
+2: Transmission from: 21 receiver: 20 sender:4
+20: Received message from: 4
+4: Non Leaf Node Deleted; removed: 6 replaced: 63
+4: Sending message to: 63
+63: Received message from: 4

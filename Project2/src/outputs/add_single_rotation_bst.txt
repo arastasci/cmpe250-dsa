@@ -1,0 +1,7 @@
+4: New node being added with IP:6
+4: New node being added with IP:1
+4: New node being added with IP:7
+6: New node being added with IP:7
+4: New node being added with IP:8
+6: New node being added with IP:8
+7: New node being added with IP:8

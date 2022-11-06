@@ -26,7 +26,7 @@ public class Project1 {
             e.printStackTrace();
         }
     }
-    // process the given input
+
     private static String process(FactoryImpl factory, String[] strings){
         switch (strings[0]){
             case "AF":

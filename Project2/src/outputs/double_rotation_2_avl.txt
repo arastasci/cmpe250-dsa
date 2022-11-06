@@ -1,0 +1,20 @@
+4: New node being added with IP:1
+4: New node being added with IP:6
+4: New node being added with IP:2
+1: New node being added with IP:2
+4: New node being added with IP:3
+1: New node being added with IP:3
+2: New node being added with IP:3
+Rebalancing: left rotation
+4: New node being added with IP:5
+6: New node being added with IP:5
+4: New node being added with IP:63
+6: New node being added with IP:63
+4: New node being added with IP:65
+6: New node being added with IP:65
+63: New node being added with IP:65
+4: New node being added with IP:66
+6: New node being added with IP:66
+63: New node being added with IP:66
+65: New node being added with IP:66
+Rebalancing: left rotation

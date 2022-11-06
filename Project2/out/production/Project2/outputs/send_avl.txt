@@ -1,0 +1,23 @@
+4: New node being added with IP:1
+4: New node being added with IP:6
+4: New node being added with IP:2
+1: New node being added with IP:2
+4: New node being added with IP:3
+1: New node being added with IP:3
+2: New node being added with IP:3
+Rebalancing: left rotation
+4: New node being added with IP:5
+6: New node being added with IP:5
+4: New node being added with IP:11
+2: New node being added with IP:11
+1: New node being added with IP:11
+4: New node being added with IP:43
+6: New node being added with IP:43
+5: New node being added with IP:43
+Rebalancing: right rotation
+11: Sending message to: 43
+1: Transmission from: 11 receiver: 43 sender:11
+2: Transmission from: 1 receiver: 43 sender:11
+4: Transmission from: 2 receiver: 43 sender:11
+5: Transmission from: 4 receiver: 43 sender:11
+43: Received message from: 11
