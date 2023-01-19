@@ -1,4 +1,0 @@
-4: New node being added with IP:6
-4: New node being added with IP:5
-6: New node being added with IP:5
-Rebalancing: right-left rotation

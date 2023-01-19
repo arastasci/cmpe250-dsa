@@ -36,7 +36,7 @@ public class Main {
                     bst.add(commands[1]);
                     avl.add(commands[1]);
 
-                    avl.reveal();
+                  //  avl.reveal();
                 }catch (InstanceAlreadyExistsException e){
                     System.out.println("IP "+ commands[1] + " already in the tree." );
                 }
@@ -46,14 +46,14 @@ public class Main {
                 bst.delete(commands[1]);
                 avl.delete(commands[1]);
 
-                avl.reveal();
+               // avl.reveal();
                 break;
 
             case "SEND":
                 bst.sendMessage(commands[1], commands[2]);
                 avl.sendMessage(commands[1], commands[2]);
 
-                avl.reveal();
+             //   avl.reveal();
                 break;
         }
     }

@@ -1,10 +1,8 @@
 import javax.management.InstanceAlreadyExistsException;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+
 import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.Stack;
@@ -50,7 +48,7 @@ public class BST {
 
     }
     BST(String fileName) throws IOException {
-        logger = new FileWriter(fileName + "_BST.txt");
+        logger = new FileWriter(fileName + "_bst.txt");
     }
 
     public boolean find(String IP) {
@@ -168,10 +166,10 @@ public class BST {
         Node cur = this.root;
         while(cur != null){
             if(cur.compareTo(senderIP) > 0 && cur.compareTo(receiverIP) > 0){
-                cur = cur.right;
+                cur = cur.left;
             }
             else if(cur.compareTo(senderIP) < 0 && cur.compareTo(receiverIP) < 0){
-                cur = cur.left;
+                cur = cur.right;
             }
             else break;
         }
@@ -197,6 +195,7 @@ public class BST {
     }
 
     protected void transmitMessageLCATR(Node LCA, String senderIP, String receiverIP){
+
         Node cur = LCA;
         Node prev = LCA;
 
@@ -237,8 +236,10 @@ public class BST {
         }
         if(stack.empty()) return;
         Node prev = stack.pop();
+
         while(!stack.empty()){
             Node top = stack.pop();
+            if(top.compareTo(receiverIP) == 0) return;
             logTransmission(top, prev, senderIP, receiverIP);
             prev = top;
         }

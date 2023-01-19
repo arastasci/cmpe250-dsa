@@ -47,23 +47,23 @@ public class AVL extends BST {
         node.height = Math.max(height(node.left),height(node.right)) + 1;
         int balance = getBalance(node);
 
-        // there are 4 cases Left Left Case
-        if (balance > 1 && node.left.compareTo(IP) > 0)
+
+        if (balance > 1 && node.left.compareTo(IP) > 0) // ll
         {
             logRotation("right");
             return rightRotate(node);
         }
-        if (balance < -1 && node.right.compareTo(IP) < 0 ){
+        if (balance < -1 && node.right.compareTo(IP) < 0 ){ // rr
             logRotation("left");
             return leftRotate(node);
         }
-        if (balance > 1 && node.left.compareTo(IP) < 0)
+        if (balance > 1 && node.left.compareTo(IP) < 0) // lr
         {
             logRotation("left-right");
             node.left = leftRotate(node.left);
             return rightRotate(node);
         }
-        if (balance < -1 && node.right.compareTo(IP) > 0)
+        if (balance < -1 && node.right.compareTo(IP) > 0) // rl
         {
             logRotation("right-left");
             node.right = rightRotate(node.right);
@@ -107,27 +107,26 @@ public class AVL extends BST {
         }
         node.height = Math.max(height(node.left),height(node.right)) + 1;
         int balance = getBalance(node);
-        if (balance > 1 && getBalance(node.left) >= 0){
+        if (balance > 1 && getBalance(node.left) >= 0){ // ll
             logRotation("right");
             return rightRotate(node);
         }
 
-        // Left Right Case
-        if (balance > 1 && getBalance(node.left) < 0)
+        if (balance > 1 && getBalance(node.left) < 0) // lr
         {
             logRotation("left-right");
             node.left = leftRotate(node.left);
             return rightRotate(node);
         }
 
-        // Right Right Case
-        if (balance < -1 && getBalance(node.right) <= 0){
+
+        if (balance < -1 && getBalance(node.right) <= 0){ // rr
             logRotation("left");
             return leftRotate(node);
         }
 
-        // Right Left Case
-        if (balance < -1 && getBalance(node.right) > 0)
+
+        if (balance < -1 && getBalance(node.right) > 0) // rl
         {
             logRotation("right-left");
             node.right = rightRotate(node.right);
